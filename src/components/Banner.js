@@ -3,11 +3,13 @@
 import "../styles/css/materialize.min.css";
 import "../styles/css/style.css";
 import Img from 'react-image';
+import Parallax from 'react-image-parallax2';
+import index from 'react-image';
 
 
   const Banner = () => (
 <div>
-  <div id="index-banner" className="parallax-container">
+  <div id="index-banner" className="Parallax-container">
     <div className="section no-pad-bot">
       <div className="container">
         <br/><br/>
@@ -18,16 +20,17 @@ import Img from 'react-image';
         <div className="row center">
 
           <a href="http://google.com/" id="download-button" className="btn-large waves-effect waves-light purple accent-4">Get Started!</a>
-
+              
         </div>
-    
+            <div>
+              <Parallax
+                src={require("../styles/pictures/computer.jpg")} alt="Unsplashed background img 1" />
+            </div>
         <br/><br/>
 
       </div>
     </div>
-    <div className="parallax">
-      <img src={require("../styles/pictures/computer.jpg")} alt="Unsplashed background img 1" />
-    </div>
+    
   </div>
 
 
@@ -74,15 +77,20 @@ import Img from 'react-image';
   </div>
 
 
-  <div className="parallax-container valign-wrapper">
+  <div className="Parallax valign-wrapper">
     <div className="section no-pad-bot">
       <div className="container">
         <div className="row center">
+              
+              <Parallax
+              
+                src={require("../styles/pictures/convo2.png")} alt="Unsplashed background img 1" />        
+              
           <h4 className="header col s12 light">Let us help you organize your References!</h4>
         </div>
       </div>
     </div>
-    <div className="parallax" id="img-2"><img src="www.s21262.pcdn.co/wp-content/uploads/2017/03/Headshots.jpg" /></div>
+    
   </div>
 </div>
 

@@ -25,12 +25,12 @@ const Footer = () => (
           </ul>
         </div>
         <div className="col l3 s12">
-          <h5 className="white-text">Connect</h5>
+          <h5 className="white-text">Connect with GitHub</h5>
           <ul>
-            <li><a className="white-text" href="#!">Link 1</a></li>
-            <li><a className="white-text" href="#!">Link 2</a></li>
-            <li><a className="white-text" href="#!">Link 3</a></li>
-            <li><a className="white-text" href="#!">Link 4</a></li>
+            <li><a className="white-text" href="#!">Trisha DeSarkar</a></li>
+            <li><a className="white-text" href="#!">Celina Zaragoza</a></li>
+            <li><a className="white-text" href="#!">Armando Robles</a></li>
+            <li><a className="white-text" href="#!">Patricio Santos</a></li>
           </ul>
         </div>
       </div>

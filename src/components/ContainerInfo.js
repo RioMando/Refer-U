@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/css/materialize.css";
 import "../styles/css/materialize.min.css";
 import "../styles/css/style.css";
+import Parallax from 'react-image-parallax2';
 
 
 
@@ -25,29 +26,22 @@ const ContainerInfo = () => (
   
 
 
-  <div className="parallax-container valign-wrapper">
+  <div className="Parallax-container valign-wrapper">
    <div className="section no-pad-bot">
      <div className="container">
        <div className="row center">
+              
+                <Parallax src={require("../styles/pictures/conversation.jpg")} />    
          <h4 className="header col s12 light">Choose your Reference Wisely. Choose REFER-U.</h4>
        </div>
      </div>
    </div>
   </div>
 
-  <div className="parallax" id="img-3"><img src="../styles/pictures/convo2.png" /></div>
+  
 </div>
 
-<div className="parallax-container valign-wrapper">
-    <div className="section no-pad-bot">
-      <div className="container">
-        <div className="row center">
-          <h4 className="header col s12 light">Choose your Reference Wisely. Choose REFER-U.</h4>
-        </div>
-      </div>
-    </div>
-    <div className="parallax" id="img-3"><img src="public/homepage/pictures/convo2.png" /></div>
-</div>
+
 </div>
 );
 

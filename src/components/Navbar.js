@@ -6,13 +6,14 @@ import "../styles/css/style.css";
 
 
 
+
 const Navbar = () => (
   
 
    <div className="deep-purple darken-1" role="navigation">
       <div className="nav-wrapper container">
         <a id="logo-container" href="home.html" className="brand-logo" className="white-text">
-        <img className="left logo" src={require("../styles/pictures/Logo.png")} /> </a>
+        <img  src={require("../styles/pictures/Logo.png")} /> </a>
         
         <ul className="right hide-on-med-and-down ">
           <li>
@@ -44,7 +45,7 @@ const Navbar = () => (
          
         </ul>
        
-        <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
       </div>
     </div>
   
