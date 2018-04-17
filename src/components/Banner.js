@@ -84,8 +84,13 @@ import index from 'react-image';
         <div className="row center">
               
               <Parallax
+<<<<<<< HEAD
                 reduceHeight={1 / 3}
                 src={'http://lorempixel.com/700/600/animals/'} />        
+=======
+              
+                src={require("../styles/pictures/faces.png")} alt="Unsplashed background img 1" />        
+>>>>>>> 2ad377ff47f50223aded60ae542cabc394ea3995
               
           <h4 className="header col s12 light">Let us help you organize your References!</h4>
         </div>
