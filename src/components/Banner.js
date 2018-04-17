@@ -84,7 +84,7 @@ import index from 'react-image';
               
               <Parallax
               
-                src={require("../styles/pictures/convo2.png")} alt="Unsplashed background img 1" />        
+                src={require("../styles/pictures/faces.png")} alt="Unsplashed background img 1" />        
               
           <h4 className="header col s12 light">Let us help you organize your References!</h4>
         </div>
