@@ -9,7 +9,7 @@ import Parallax from 'react-image-parallax2';
 const ContainerInfo = () => (
 
 <div>
-
+    
 <div className="container">
   <div className="section" />
 
@@ -33,7 +33,7 @@ const ContainerInfo = () => (
               
                 <Parallax 
                 reduceHeight={1 / 2} 
-                src={require("../styles/pictures/conversation.jpg")} />    
+                src={require("../styles/pictures/conversation.jpg")} id="imgage3" />    
          <h4 className="header col s12 light">Choose your Reference Wisely. Choose REFER-U.</h4>
        </div>
      </div>

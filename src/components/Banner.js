@@ -8,7 +8,7 @@ import index from 'react-image';
 
 
   const Banner = () => (
-<div>
+<div >
   <div id="index-banner" className="Parallax-container">
     <div className="section no-pad-bot">
       <div className="container">
@@ -25,7 +25,7 @@ import index from 'react-image';
             <div>
               <Parallax
                 reduceHeight={1 / 2} 
-                src={require("../styles/pictures/computer.jpg")} alt="Unsplashed background img 1" />
+                src={require("../styles/pictures/computer.jpg")} id="image1" />
             </div>
         <br/><br/>
 
@@ -84,13 +84,8 @@ import index from 'react-image';
         <div className="row center">
               
               <Parallax
-<<<<<<< HEAD
                 reduceHeight={1 / 3}
-                src={'http://lorempixel.com/700/600/animals/'} />        
-=======
-              
-                src={require("../styles/pictures/faces.png")} alt="Unsplashed background img 1" />        
->>>>>>> 2ad377ff47f50223aded60ae542cabc394ea3995
+                src={require("../styles/pictures/faces.png")} alt="image2" />        
               
           <h4 className="header col s12 light">Let us help you organize your References!</h4>
         </div>
