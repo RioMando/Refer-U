@@ -8,7 +8,7 @@ import Parallax from 'react-image-parallax2';
 
 const App = () => (
 
-  <div className="main-container">
+  <div className="main-container" >
     <Navbar />
     <Parallax/>
     <Banner />

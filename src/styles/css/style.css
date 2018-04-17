@@ -18,23 +18,23 @@ p {
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+  color: #aa00ff;
 }
 
-.parallax-container {
+.Parallax-container {
   min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
+  .Parallax-container {
     width: 100%;
   }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
+  .Parallax .section {
     position: absolute;
-    top: 40%;
+    top: 100%;
   }
   #index-banner .section {
     top: 10%;

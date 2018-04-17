@@ -2,14 +2,19 @@
   import "../styles/css/materialize.css";
 import "../styles/css/materialize.min.css";
 import "../styles/css/style.css";
-import Img from 'react-image';
+//import Img from 'react-image';//
 import Parallax from 'react-image-parallax2';
-import index from 'react-image';
+//import index from 'react-image';//
 
 
 
   const Banner = () => (
-<div>
+<div >
+      
+        <Parallax
+          reduceHeight={1 / 2}
+          src={require("../styles/pictures/computer.jpg")} id="image1" />
+      
   <div id="index-banner" className="Parallax-container">
     <div className="section no-pad-bot">
       <div className="container">
@@ -42,11 +47,15 @@ import index from 'react-image';
           <a href=" " id="download-button" className="btn-large waves-effect waves-light purple accent-4">Resume</a>
               
         </div>
+<<<<<<< HEAD
 
             <div>
               <Parallax
                 src={require("../styles/pictures/computer.jpg")} alt="Unsplashed background img 1" />
             </div>
+=======
+            
+>>>>>>> fbd7de22c3b60f6ef3c1b2ce4f969571d5dd3b9f
         <br/><br/>
 
       </div>
@@ -97,15 +106,14 @@ import index from 'react-image';
     </div>
   </div>
 
-
+      <Parallax
+        reduceHeight={1 / 2}
+        src={require("../styles/pictures/faces.png")} alt="image2" />  
   <div className="Parallax valign-wrapper">
     <div className="section no-pad-bot">
       <div className="container">
         <div className="row center">
-              
-              <Parallax
-              
-                src={require("../styles/pictures/faces.png")} alt="Unsplashed background img 1" />        
+                    
               
           <h4 className="header col s12 light">Let us help you organize your References!</h4>
         </div>
