@@ -47,7 +47,7 @@ import Parallax from 'react-image-parallax2';
           <a href=" " id="download-button" className="btn-large waves-effect waves-light purple accent-4">Resume</a>
               
         </div>
-<<<<<<< HEAD
+        // HEAD
 
             <div>
               <Parallax
