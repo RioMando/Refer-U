@@ -47,6 +47,7 @@ const Navbar = () => (
        
       <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
       </div>
+    
     </div>
   
 );

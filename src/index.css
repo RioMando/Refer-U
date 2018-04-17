@@ -6,3 +6,12 @@ body {
   
     
 }
+
+#image1 {
+  width: 400px;
+  object-fit: contain;
+}
+
+#image2 {
+  width: 100%;
+}
