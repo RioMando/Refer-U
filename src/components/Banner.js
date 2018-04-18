@@ -23,6 +23,9 @@ import Parallax from 'react-image-parallax2';
           <div className="row center">
             <a href=" " id="download-button" className="btn-large waves-effect waves-light purple accent-4">Get Started</a>
           </div>
+        <br/><br/>
+
+
       </div>
     
   </div>
