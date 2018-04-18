@@ -10,7 +10,7 @@ const ContainerInfo = () => (
 
 <div>
     
-<div className="container">
+
   <div className="section" />
 
     <div className="row" />
@@ -23,28 +23,23 @@ const ContainerInfo = () => (
         <p className="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
       </div>
   
-  
+    <div>
+      <h4 className="header col s12 light" id="bottomWords">Choose your Reference Wisely. Choose REFER-U.</h4>
+    </div>
       <Parallax
         reduceHeight={1 / 2}
-        src={require("../styles/pictures/conversation.jpg")} id="image3" />
-
-  <div className="Parallax-container valign-wrapper">
-   <div className="section no-pad-bot">
-     <div className="container">
-       <div className="row center">
+       
+        src={require("../styles/pictures/convo3.jpg")} id="image3" />  
               
-                   
-         <h4 className="header col s12 light">Choose your Reference Wisely. Choose REFER-U.</h4>
-       </div>
-     </div>
-   </div>
-  </div>
-
+    
+     
+ </div>  
+ 
   
-</div>
 
 
-</div>
+
+
 );
 
 export default ContainerInfo;

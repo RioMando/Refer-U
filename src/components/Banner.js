@@ -2,6 +2,7 @@
   import "../styles/css/materialize.css";
 import "../styles/css/materialize.min.css";
 import "../styles/css/style.css";
+
 //import Img from 'react-image';//
 import Parallax from 'react-image-parallax2';
 //import index from 'react-image';//
@@ -11,55 +12,18 @@ import Parallax from 'react-image-parallax2';
   const Banner = () => (
 <div >
       
-        <Parallax
-          reduceHeight={1 / 2}
-          src={require("../styles/pictures/computer.jpg")} id="image1" />
       
   <div id="index-banner" className="Parallax-container">
     <div className="section no-pad-bot">
-      <div className="container">
-        <br/><br/>
-        <h1 className="header center white-text">Your Reference, Right Away!</h1>
-        <div className="row center">
-          
-        </div>
-        // search bottom to google
-        <div className="row left">
-
-          <a href="http://google.com/" id="download-button" className="btn-large waves-effect waves-light purple accent-4">Google</a>
-              
-        </div>
-        //frame work for clink in bottom function from html
-        <div className="row left">
-
-          <a href=" " id="download-button" className="btn-large waves-effect waves-light purple accent-4">Cover Letter</a>
-              
-        </div>
-         //frame work for clink in bottom function from html
-        <div className="row left">
-
-          <a href=" "id="download-button" className="btn-large waves-effect waves-light purple accent-4">Reference Letter</a>
-              
-        </div>
-        //frame work for click in bottom function from html
-        <div className="row centers">
-
-          <a href=" " id="download-button" className="btn-large waves-effect waves-light purple accent-4">Resume</a>
-              
-        </div>
-<<<<<<< HEAD
-
-            <div>
-              <Parallax
-                src={require("../styles/pictures/computer.jpg")} alt="Unsplashed background img 1" />
-            </div>
-=======
-            
->>>>>>> fbd7de22c3b60f6ef3c1b2ce4f969571d5dd3b9f
-        <br/><br/>
-
+        <h1 className="header center white-text" id="topWords">Your Reference, Right Away!</h1>
+        
+            <Parallax
+              reduceHeight={1 / 2}
+              src={require("../styles/pictures/computer.jpg")} id="image1" />
+          <div className="row center">
+            <a href=" " id="download-button" className="btn-large waves-effect waves-light purple accent-4">Get Started</a>
+          </div>
       </div>
-    </div>
     
   </div>
 
@@ -106,22 +70,20 @@ import Parallax from 'react-image-parallax2';
     </div>
   </div>
 
-      <Parallax
-        reduceHeight={1 / 2}
-        src={require("../styles/pictures/faces.png")} alt="image2" />  
-  <div className="Parallax valign-wrapper">
-    <div className="section no-pad-bot">
-      <div className="container">
-        <div className="row center">
+        
+  
                     
-              
-          <h4 className="header col s12 light">Let us help you organize your References!</h4>
+          <div>    
+          <h4 className="header col s12 light" id="MiddleWords">Let us help you organize your References!</h4>
         </div>
-      </div>
-    </div>
+            <Parallax
+              reduceHeight={1 / 2}
+              src={require("../styles/pictures/faces.png")} alt="image2" />
+ </div>     
     
-  </div>
-</div>
+    
+  
+
 
 );
 

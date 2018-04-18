@@ -15,3 +15,30 @@ body {
 #image2 {
   width: 100%;
 }
+
+#image3 {
+  width: 100%;
+}
+
+#download-button{
+  position: absolute;
+  z-index: 1;
+}
+
+#topWords {
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+#MiddleWords {
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
+
+#bottomWords {
+  position: absolute;
+  z-index: 1;
+  color: white;
+}
